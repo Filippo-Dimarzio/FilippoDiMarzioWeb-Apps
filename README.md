@@ -5,7 +5,8 @@
 This repository covers a few cool assignment created while on my 2 years of college 
 
 ### Features
-- Weather Web App Visual Studio Code IDE
+- Personal Information Website using Visual Studio Code IDE
+- Weather Web App using Visual Studio Code IDE
 - Formula 1 Web-App using Glitch BIDE
 
 ### Technologies Used
