@@ -1,0 +1,284 @@
+body {
+    font-family: "Book Antiqua";
+    background-image: url(../images/grey.jpeg);
+    background-color: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+p.blue {
+    background-color: aqua;
+    font-weight: bold;
+}
+
+
+
+blockquote em {
+    color: beige;
+}
+
+blockquote strong {
+    text-align: left;
+}
+
+h1, h2, h3, h4,h6 {
+    text-align: center;
+    font-family: "Book Antiqua";
+    text-decoration: underline;
+}
+h5{
+    color: rgb(167, 202, 178); 
+}
+
+h1 {
+    color: azure;
+}
+
+h2{
+    color: azure;
+}
+
+hr {
+    border-width: 0;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    color: rgb(167, 202, 178);
+}
+
+
+/*
+new css added
+*/
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+  }
+  .flex-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+  }
+
+  .red-button-like, #button-like-heading,
+  #address-button-like {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: rgb(167, 202, 178);
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  #blue-button-like{
+    background-color:rgb(167, 235, 235);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.red-button-like {
+    background-color: red;
+    margin-top: 10px;
+}
+
+  
+figcaption{
+    background-color:rgb(167, 202, 178);
+}
+  
+  nav a:link,
+  nav a:visited {
+    background-color: rgb(167, 202, 178);
+    border: 2px solid #afbeab;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .green-button {
+    background-color: rgb(167, 202, 178);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#container ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#container li {
+  flex: 1 0 23%;
+}
+
+
+.ui.dropdown.item {
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    background: none;
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 1em 1.5em;
+    background-color: rgb(167, 202, 178);
+    outline: none;
+  }
+  
+  
+  .ui.dropdown.item .menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(167, 202, 178);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .ui.green.button {
+    color: black;
+  }
+  
+
+  .ui.dropdown.item:hover .menu {
+    display: block;
+    background-color: rgb(167, 202, 178);
+  }
+  
+
+  .ui.dropdown.item .menu .item {
+    color: rgb(167, 202, 178);
+    background-color: rgb(167, 202, 178);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+
+  .ui.dropdown.item .menu .item:hover {
+   
+    background-color: rgb(167, 202, 178);
+  }
+  #dropdown-menu {
+    background-color: rgb(167, 202, 178);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+/*
+*/
+
+a:visited {
+    color: rgb(243, 237, 237);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(55, 28, 190);
+    background-color: rgb(6, 145, 138);
+}
+
+p, .paragraph {
+    color: azure;
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    font-size: medium;
+}
+
+blockquote {
+    font-size: small;
+    color: rgb(29, 32, 25);
+    text-align: center;
+    background-color: rgb(167, 202, 178);
+}
+
+th, td {
+    border: solid black 1px;
+    padding: 0.5em;
+    font-size: small;
+}
+
+.center-table {
+    margin: 0 auto;
+    width: 80%; 
+}
+
+th {
+    text-align: center;
+    font-size: x-small;
+    background-color: #babebe;
+    color: #120404;
+    border-color: #000100;
+    padding: 0.2em;
+}
+
+caption {
+    color: #000066;
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 0.5em;
+}
+
+tr:nth-of-type(even) {
+    background-color: #bbcdb1;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #B0C4DE;
+}
+
+td:nth-of-type(hover) {
+    background-color: rgb(125, 135, 175);
+}
+tbody td:hover{
+    background-color: aliceblue;
+}
+
+.center-table {
+    text-align: center;
+}
+
+i, a {
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
