@@ -1,0 +1,26 @@
+<div class="ui centered cards">
+  {{#each formula1}}
+    <div class="ui card">
+      <div class="image">
+        <img src="{{picture}}" />
+      </div>
+      <div class="content">
+        <a class="header">{{uppercase title}} - {{ Races.length}} </a>
+        <div class="metadata">
+      <span class="date">Created: {{formatDate date}}</span>
+      </div>
+      </div>
+      <div class="extra content">
+        <a href="/formula1/{{id}}" class="ui icon button">
+          <i class="icon folder open"></i>
+        </a>
+        <a
+          href="/dashboard/deleteformula1/{{id}}"
+          class="ui icon button delformula1"
+        >
+          <i class="icon trash"></i>
+        </a>
+      </div>
+    </div>
+  {{/each}}
+</div>

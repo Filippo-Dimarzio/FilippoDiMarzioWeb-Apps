@@ -1,0 +1,25 @@
+<form
+  class="ui stacked segment form"
+  action="/formula1/{{formula1.id}}/addrace"
+  method="POST"
+>
+  <div class="four fields">
+    <div class="field">
+      <label for="name">Name</label>
+      <input placeholder="Name" type="text" name="name" autofocus required />
+    </div>
+    <div class="field">
+      <label for="type">Type</label>
+      <input placeholder="Type" type="text" name="type" required />
+    </div>
+    <div class="field">
+      <label for="length">Length</label>
+      <input placeholder="Length" type="text" name="length" required />
+    </div>
+    <div class="field">
+      <label for="laps">Laps</label>
+      <input placeholder="Laps" type="text" name="laps" required />
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Race</button>
+</form>

@@ -1,0 +1,61 @@
+{{#unless formula1.Races}}
+  <h3 class="ui center aligned message">It's very quiet in here... start adding some races!</h3>
+{{else}}
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th class="four wide">Name</th>
+      <th class="four wide">Type</th>
+      <th class="three wide">Length</th>
+      <th class="three wide">Laps</th>
+      <th class="one wide"> </th>
+      <th class="one wide"> </th>
+    </tr>
+  </thead>
+<tbody>
+    {{#each formula1.Races}}
+    <form class = "ui stacked segment form" action="/formula1/{{../formula1.id}}/updaterace/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input type="text" name="name" autofocus required title = "Please include a valid Title" placeholder="Title" value = "{{name}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="type" required title = "Please include a valid type of race, example Qualifier, Heats, GP and Sprint Race" placeholder="Type" value = "{{type}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="length" autofocus required title = "Please include a random length of track between 3000km and 5000km" placeholder="Length" value = "{{length}}">         
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="laps" required title = "Please enter a valid laps number between 50-70 Laps" placeholder="Laps" value = "{{laps}}">
+        </span>
+      </td>
+      <td class="center aligned">
+        <button class="ui submit icon button"><i class="ui pencil alternate icon"></i></button>
+      </td>
+      <td class="center aligned">
+        <a href="/formula1/{{../formula1.id}}/deleterace/{{id}}" class="ui icon button delrace">
+          <i class="ui trash icon"></i>
+        </a>
+      </td>
+    </tr>
+    </form> 
+    {{/each}}
+  </tbody>
+</table>
+
+<p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui blue button" id="rateit">
+  Rate it! <i class="star icon"></i>
+</button>
+
+{{/unless}}

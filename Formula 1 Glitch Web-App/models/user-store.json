@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "firstName": "Luca",
+      "lastName": "Payet",
+      "email": "payet@luca.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Mk",
+      "email": "mk@scott.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Filippo",
+      "lastName": "Di Marzio",
+      "email": "20102769@mail.wit.ie",
+      "password": "bLUEMILAN21",
+      "id": "fc54848a-0c0e-4536-baae-78977dfcb21e"
+    },
+    {
+      "firstName": "Favour",
+      "lastName": "Toi",
+      "email": "favour@gmail.com",
+      "password": "Liverpool3",
+      "id": "d5ed083a-e1f5-4fea-99b0-f45e9f92861c"
+    },
+    {
+      "firstName": "Catherine",
+      "lastName": "Keighery",
+      "email": "missckeighery@gmail.com",
+      "password": "Abc123??",
+      "id": "f1fe438c-924c-43c9-9e6d-75bb99c827e2"
+    },
+    {
+      "firstName": "Federico",
+      "lastName": "Di Marzio",
+      "email": "federicodimarzio@hotmail.com",
+      "password": "FormulaOne2023!",
+      "id": "a3e8ac62-0f3d-4895-85e9-ac38fcc753d6"
+    },
+    {
+      "firstName": "Jack",
+      "lastName": "Man",
+      "email": "marks.cravats_0f@icloud.com",
+      "password": "TheSunrise35",
+      "id": "02bec701-c98f-4e45-98e7-1229bb82e16d"
+    },
+    {
+      "firstName": "Eleonora",
+      "lastName": "Di Marzio",
+      "email": "eledm92@hotmail.com",
+      "password": "Blymacaroon14",
+      "id": "cf875f81-0a1a-4e16-a829-535a4d8b3210"
+    }
+  ]
+}

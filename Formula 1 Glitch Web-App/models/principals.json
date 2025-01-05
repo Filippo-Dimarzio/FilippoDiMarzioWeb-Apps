@@ -1,0 +1,36 @@
+{
+  "Team Principals": [
+    {
+      "name": "Frederic ",
+      "fullname": "Frederic Vasseur ",
+      "picture": "https://res.cloudinary.com/fil-dm7/image/upload/v1682282105/vasseur_s6zqz4.jpg",
+      "joined": 1987,
+      "job": "Team Principal of Ferrari F1 team",
+      "city": "Draveil, France"
+    },
+    {
+      "name": "Gunther",
+      "fullname": "Gunther Steiner",
+      "picture": "https://res.cloudinary.com/fil-dm7/image/upload/v1682282109/gunther_ta6que.jpg",
+      "joined": 2006,
+      "job": "Team Principal of Haas F1 team",
+      "city": "Merano, South Tyrol, Italy"
+    },
+    {
+      "name": "Toto",
+      "fullname": "Toto Wolff",
+       "picture": "https://res.cloudinary.com/fil-dm7/image/upload/v1682282113/wolff_t5fi0r.jpg",
+      "joined": 2013,
+      "job": "Team Principal & CEO of the Mercedes-AMG Petronas F1 Team",
+      "city": "Vienna, Austria"
+    },
+    {
+      "name": "Christian",
+      "fullname": "Christian Edward Johnston Horner",
+       "picture": "https://res.cloudinary.com/fil-dm7/image/upload/v1682282117/horner_qtxfob.jpg",
+      "joined": 2005,
+      "job": "Team Principal of Red Bull F1 Team ",
+      "city": "Warwickshire, England"
+    }
+  ]
+}

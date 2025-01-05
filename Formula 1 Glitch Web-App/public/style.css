@@ -1,0 +1,35 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 2em;
+  background: linear-gradient(to bottom, #ff2800 50%, #8c8c8c 50%);
+}
+
+h1 {
+  font-style: italic;
+  color: #e4e4e4;
+}
+
+#readmore {
+  display: none;
+}
+
+#welcomeuser {
+  display: none;
+}
+.name{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+.profilepic{
+  padding-top:15px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}
+
+

@@ -1,0 +1,27 @@
+<form
+  class="ui stacked segment form"
+  action="/dashboard/addformula1"
+  method="POST" enctype="multipart/form-data"
+>
+  <div class="two fields">
+    <div class="field">
+      <label for="title">Title</label>
+      <input placeholder="Title" type="text" name="title" autofocus required />
+    </div>
+     <div class="field">
+      <label for="dates">Type</label>
+      <input placeholder="Type" type="text" name="type" required />
+      <div class="field">
+    <div class="field">
+      <label for="location">Location</label>
+      <input placeholder="Location" type="text" name="location" required />
+    </div>
+   
+       <label>Image</label>
+      <input placeholder="Image" type="file" name="picture" required>
+    </div>
+  </div>
+  </div>
+
+  <button class="ui blue submit button">Add Formula 1</button>
+</form>

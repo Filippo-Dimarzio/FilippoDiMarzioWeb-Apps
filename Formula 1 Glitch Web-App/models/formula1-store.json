@@ -1,0 +1,199 @@
+{
+  "formula1Collection": [
+    {
+      "id": "01",
+      "title": "Middle East GP ",
+      "picture": "https://res.cloudinary.com/fil-dm7/image/upload/v1682281038/bahraingp_u4zr1e.jpg",
+      "type": "Qualifiers, Grand Prix, Sprint Races, Practice 1, Practice 2, Practice 3",
+      "location": "Middle East",
+      "Races": [
+        {
+          "id": "01",
+          "name": "BAHRAIN GP 2023",
+          "type": "Qualifiers",
+          "length": "3.543 km",
+          "laps": "65"
+        },
+        {
+          "id": "02",
+          "name": "SAUDI ARABIAN GP 2023",
+          "type": "Sprint Race",
+          "length": "6.174 km",
+          "picture": "https://res.cloudinary.com/fil-dm7/image/upload/v1682281254/saudiarabia_ifhgne.jpg",
+          "laps": "50"
+        },
+        {
+          "id": "03",
+          "name": "ABU DHABI GP 2023",
+          "type": "Grand Prix",
+          "length": "5.281 km",
+          "picture": "https://res.cloudinary.com/fil-dm7/image/upload/v1682281321/Abudhabigp_xxndgy.jpg",
+          "laps": "58"
+        },
+        {
+          "id": "c67e7907-f9db-4af4-8c33-0495776d5060",
+          "name": "QATAR GP",
+          "type": "Grand Prix",
+          "length": "4000km",
+          "laps": "50"
+        }
+      ]
+    },
+    {
+      "id": "07334799-2388-4e03-bf70-4aa92321f8bf",
+      "userid": "fc54848a-0c0e-4536-baae-78977dfcb21e",
+      "title": "Oceania GP",
+      "type": "gp",
+      "location": "Australia",
+      "picture": "http://res.cloudinary.com/fil-dm7/image/upload/v1682526200/ni9fjb2btn0eiksnzssi.jpg",
+      "date": "2023-04-26T16:23:20.039Z",
+      "Races": [
+        {
+          "id": "7a029794-bc71-4800-abb2-055149f65e80",
+          "name": "aussie gp",
+          "type": "gp",
+          "length": "4000km",
+          "laps": "55"
+        }
+      ]
+    },
+    {
+      "id": "80ef9034-d9ed-4374-99f6-cd3c78cff459",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "NORTH AMERICA GP",
+      "type": "Grand Prix",
+      "location": "Miami",
+      "picture": "http://res.cloudinary.com/fil-dm7/image/upload/v1682704278/iyxzzkdc4sakxtnnsvdq.jpg",
+      "date": "2023-04-28T17:51:18.398Z",
+      "Races": [
+        {
+          "id": "893c3708-9cda-4cdf-9277-04984ea00d79",
+          "name": "VEGAS GP",
+          "type": "Grand Prix",
+          "length": "5700km",
+          "laps": "71"
+        },
+        {
+          "id": "85916206-e811-4d0b-8dac-45fe22414ece",
+          "name": "AUSTIN GP",
+          "type": "Sprint Race ",
+          "length": "4200km",
+          "laps": "50"
+        },
+        {
+          "id": "ef1fa4a4-e260-4857-976c-2bb15784aa3a",
+          "name": "MEXICO GP",
+          "type": "Grand Prix",
+          "length": "5.807 km",
+          "laps": "45"
+        },
+        {
+          "id": "2f29c254-91e3-4892-a642-b9412a469f28",
+          "name": "MIAMI GP",
+          "type": "Qualifiers",
+          "length": "5.063 km",
+          "laps": "72"
+        }
+      ]
+    },
+    {
+      "id": "26bfbf6a-53fd-436e-8bd8-c3c31d521efb",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "EUROPEAN GP",
+      "type": "Grand Prix",
+      "location": "Europe",
+      "picture": "http://res.cloudinary.com/fil-dm7/image/upload/v1682704298/buuu1j1kqjgzmjcwnnxw.jpg",
+      "date": "2023-04-28T17:51:37.983Z",
+      "Races": [
+        {
+          "id": "0d3c473f-a114-4a03-9d19-a99c6a3aaca5",
+          "name": "MONACO GP",
+          "type": "Grand Prix",
+          "length": "5700km",
+          "laps": "71"
+        },
+        {
+          "id": "70bc9780-00ca-49ce-a6ca-a47b6e899d53",
+          "name": "IMOLA GP",
+          "type": "Sprint Race ",
+          "length": "5.807 km",
+          "laps": "53"
+        },
+        {
+          "id": "31772b98-e275-40fd-a8ac-25883d03587d",
+          "name": "AUSTRIA GP",
+          "type": "Grand Prix",
+          "length": "6833km",
+          "laps": "40"
+        },
+        {
+          "id": "6fe403e9-9a36-45df-8b48-ecc3411124e5",
+          "name": "MONZA GP",
+          "type": "Qualifiers",
+          "length": "5.063 km",
+          "laps": "71"
+        },
+        {
+          "id": "649b55b7-c227-4523-85aa-bc2432cf1d9d",
+          "name": "DUTCH GP",
+          "type": "Practice 3",
+          "length": "3.500km",
+          "laps": "55"
+        },
+        {
+          "id": "d77705db-7479-4196-b812-3881ff8984c1",
+          "name": "BELGIAN GP",
+          "type": "Sprint Race ",
+          "length": "6200km",
+          "laps": "60"
+        },
+        {
+          "id": "3244ec34-74ca-47b2-abb9-d776d8c4eaff",
+          "name": "BRITISH GP",
+          "type": "Qualifiers",
+          "length": "5.063 km",
+          "laps": "40"
+        },
+        {
+          "id": "ce1d80d8-d724-4bef-af2c-cab86a26490a",
+          "name": "HUNGARY GP",
+          "type": "Practice 2",
+          "length": "6500km",
+          "laps": "53"
+        }
+      ]
+    },
+    {
+      "id": "cfbf52a0-5544-4129-81b9-668dd9ce3c9d",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "ASIA GP",
+      "type": "Grand Prix",
+      "location": "Asia",
+      "picture": "http://res.cloudinary.com/fil-dm7/image/upload/v1682704331/gdce4acj2qbnyrhg5o6o.jpg",
+      "date": "2023-04-28T17:52:11.797Z",
+      "Races": [
+        {
+          "id": "189e175e-f197-493c-bc01-8485ec36d458",
+          "name": "JAPAN GP",
+          "type": "Grand Prix",
+          "length": "5000km",
+          "laps": "60"
+        },
+        {
+          "id": "4aa45224-32c8-4a39-8087-8f53e9c06435",
+          "name": "SINGAPORE GP",
+          "type": "Grand Prix",
+          "length": "4500km",
+          "laps": "71"
+        },
+        {
+          "id": "ef54a4be-58ed-402e-9b2e-1a5c2391be7f",
+          "name": "AZERBAIJAN GP",
+          "type": "Grand Prix",
+          "length": "4000km",
+          "laps": "50"
+        }
+      ]
+    }
+  ]
+}

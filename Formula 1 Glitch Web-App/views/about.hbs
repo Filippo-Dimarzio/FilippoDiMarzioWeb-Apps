@@ -1,0 +1,50 @@
+{{menu id="about"}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    The 23 Grand Prix List this season around the World
+  </h2>
+
+
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required /><br />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required /><br />
+
+    <label for="message">Message:</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="4"
+      cols="50"
+      required
+    ></textarea><br />
+
+    <button type="submit" onclick="submitForm()">Submit</button>
+  </form>
+
+  <script>
+    function submitForm() { alert("Thank you for your message!");
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = ""; return false; }
+  </script>
+
+  <address>
+    Email me for any problems clicking the name
+    <a href="mailto:fil.blockchain@gmail.com">fil.blockchain@gmail.com </a>.<br />
+    Applied Computing, SETU, Waterford, Ireland<br />
+    Written by Filippo Di Marzio <br>
+    Visit us at:
+     
+    <a href="https://f1store.formula1.com/en/red-bull/t-98080827+z-867377-2773625181?_s=gppc&utm_campaign=Motorsports+-+Red+Bull+-+GKs+-+IE+-+EN|18206270527&utm_medium=ppc&ks_id=7083_kw31439119&utm_term=red%20bull%20f1%20gifts&matchtype=b&utm_source=g&target=kwd-562681818947&pcrid=619190194535&adposition=&gclid=CjwKCAjwl6OiBhA2EiwAuUwWZRT1o5eD8_qBDEAMJkdRZtsb_CnDXQJ06NfoIlK9PVCsx3t3vySzgBoCS5gQAvD_BwE">Red Bull HQ Facilities</a>
+    <p> James's Market, London</p>
+    <img
+      src="https://res.cloudinary.com/fil-dm7/image/upload/c_scale,h_1000,w_900/v1682344927/location_dbjoq8.jpg"
+    />
+    <br />
+  </address>
+</section>
