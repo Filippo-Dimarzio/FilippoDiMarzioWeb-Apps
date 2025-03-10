@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+<style>
+
+.clicked {
+	    font-weight:bold;
+		font-style:italic;
+	}	
+    body {
+  
+  background-image: url('images/venus.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  margin: 0;
+  padding: 0;
+}
+
+.with-background {
+  background-image: url('images/stars.jpeg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+  
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1  id="address-button-like">The Dynamic Weather App</h1>
+        </header>
+        <main>
+           
+            
+
+           
+            <table>
+                <tr>
+                    <td>
+                        <select id="weather-select" size="5">
+                            <option>Sunset</option>
+                            <option>Fog</option>
+                            <option>Snow</option>
+                            <option selected="selected">Tornado</option>
+                            <option>Rainbow</option>
+                        </select>
+                    </td>
+                    <td class="weather-icon">
+                        <img id="weather-image" src="images/tornado.jpg" alt="Tornado Image">
+                    </td>
+                </tr>
+            </table>
+            
+
+            <br>
+            
+            
+
+   
+
+           
+           
+
+           <section class="weather-info">
+           
+            <div class="weather-icon">
+               
+            </div>
+            <div class="weather-details">
+                <div class="weather-container">
+                    <p class="location"></p>
+                    <p class="temperature"></p>
+                    <p class="condition"></p>
+                </div>
+                <br>
+                <br>
+            </div>
+        </section>
+        
+        
+        </main>
+
+        <br>
+
+        <div id="container">
+            <nav>
+                <ul>
+                    <li id="address-button-like"><a href="weatherarray.html" target="_blank">Weather Array</a></li>
+                    <li id="address-button-like"><a href="ClothingSuggestions.html" target="_blank"> Clothing Suggestions</a></li>
+                    <li id="address-button-like"><a href="about.html" target="_blank"> About Page</a></li>
+                    <br>
+                </ul>
+            </nav>
+        </div>
+        
+        <br>
+        <br>
+        <br>
+   
+        <i class="large weather icon weather-icon"></i>
+        <button id="weatherButton" class="button-like-heading" onclick="updateWeather()">
+            <i id="weatherIcon" class="large weather icon weather-icon"></i>
+            What is the weather out of 10 today?
+          </button>
+
+ <br>
+        <br>
+        <br>
+        <br>
+
+          <div class="ui container">
+            
+            <div class="ui raised text container with-background">
+                   <p style="color: #967bb6;">  In this Web-App you can explore the selected climates in the US , a simple interactive text for choosing clothes to wear in different climates and an about page with some credits</p>
+            </div>
+
+        <br>
+        <br>
+        <br>
+
+        
+        <br>
+       
+        <br>
+        <footer>
+            <address id="address-button-like" class="address">
+                <div class="ui list">
+                    <div class="item">
+                        <i class="address book icon"></i>
+                        
+                            Filippo Di Marzio
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="certificate icon"></i>
+                        
+                            Software System Development Student at SETU
+                        </div>
+                    
+                    <div class="item">
+                        <i class="marker icon"></i>
+                        
+                            Waterford, Ireland
+                        </div>
+                    
+            </address>
+        </footer>
+    </div>
+
+
+    <script>
+        const source = [
+            'images/sunset.jpeg',
+            'images/fog.jpeg',
+            'images/snow.jpeg',
+            'images/tornado.jpg',
+            'images/rainbow.jpeg'
+        ];
+        
+        const image = document.querySelector('#weather-image');
+        const select = document.querySelector('#weather-select');
+        
+        select.addEventListener('change', (evt) => {
+            let index = evt.target.selectedIndex;
+            image.src = source[index];
+        });
+        
+        
+
+        const weatherButton = document.querySelector('#weatherButton');
+
+const weatherIcon = document.querySelector('#weatherIcon');
+
+weatherButton.addEventListener('click', () => {
+    const rating = prompt("Please rate the weather out of 10:");
+    if (rating !== null) {
+        const weatherRating = parseFloat(rating);
+        if (!isNaN(weatherRating) && weatherRating >= 0 && weatherRating <= 10) {
+            let message;
+            if (weatherRating >= 0 && weatherRating <= 3) {
+                message = "Unfortunately, it seems like it's not the best weather today. Stay indoors and keep warm!";
+                weatherIcon.className = 'large umbrella icon weather-icon'; 
+            } else if (weatherRating >= 4 && weatherRating <= 6) {
+                message = "The weather is alright. It could be better, but it's not too bad either. Carry an umbrella just in case!";
+                weatherIcon.className = 'large cloud icon weather-icon'; 
+            } else {
+                message = "Enjoy the wonderful weather today! Make the most of the sunshine and have a fantastic day!";
+                weatherIcon.className = 'large sun icon weather-icon'; 
+            }
+            alert(message);
+        } else {
+            alert("Please enter a valid rating between 0 and 10.");
+        }
+    }
+});
+
+function updateWeather() {
+    const weatherCondition = Math.floor(Math.random() * 10); 
+
+    if (weatherCondition >= 0 && weatherCondition <= 3) {
+        weatherIcon.className = 'large umbrella icon weather-icon'; 
+    } else if (weatherCondition >= 4 && weatherCondition <= 6) {
+        weatherIcon.className = 'large cloud icon weather-icon'; 
+    } else {
+        weatherIcon.className = 'large sun icon weather-icon'; 
+    }
+}       
+            </script>
+</body>
+</html>
