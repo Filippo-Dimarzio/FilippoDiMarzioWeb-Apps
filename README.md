@@ -16,18 +16,22 @@ This repository covers a few cool assignment created while on my 2 years of coll
 
 ---
 
-## **[Weather Web App🌞]**
+# Space Travel Decision 🚀
 
-### Description
-A dynamic Weather Web Application that provides current weather information from the US with various weather conditions using JavaScript elements and external APIs.
+## Description
+An interactive web application that lets users explore planets of our solar system visually and decide how likely they are to travel to space through a fun quiz prompt.
 
-### Features
-- Real-time weather updates
-- Responsive design
+## Features
+- Select planets from a list and view their images  
+- Stylish, dark-themed UI with glowing button effects  
+- Space travel likelihood test with dynamic feedback  
+- Responsive and accessible design  
 
-### Technologies Used
-- HTML, CSS
-- JavaScript Libraries
+## Technologies Used
+- HTML, CSS (with gradients and shadows)  
+- JavaScript (event handling, dynamic image updates)  
+- Semantic UI for basic styling  
+
 
 https://weath-app-assignment.netlify.app
 
